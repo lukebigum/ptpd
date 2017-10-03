@@ -482,7 +482,7 @@ getOffsetFrom (ClockDriver *self, ClockDriver *from, TimeInternal *delta)
 		if(!self->getSystemClockOffset(self, &deltaA)) {
 		    return FALSE;
 		}
-		if(!self->getSystemClockOffset(from, &deltaB)) {
+		if(!from->getSystemClockOffset(from, &deltaB)) {
 		    return FALSE;
 		}
 		subTime(delta, &deltaA, &deltaB);
