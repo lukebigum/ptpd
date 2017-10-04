@@ -84,6 +84,7 @@ ptpd_SOURCES =				\
 	libcck/extensions/clockdriver/linuxphc_vext_solarflare.h \
 	libcck/extensions/clockdriver/linuxphc_vext_solarflare.c \
 	libcck/extensions/clockdriver/linuxphc_vext.def \
+	libcck/clockdriver.def \
 	libcck/clockdriver_linuxphc.h	\
 	libcck/clockdriver_linuxphc.c	\
 	libcck/linkedlist.h		\
